@@ -16,7 +16,8 @@ for (int i = 0; i < array1.Length; i++){
 }
 string[] array2 = new string[n];
 int j = 0;
-for (int i = 0; i < array1.Length; i++){
+for (int i = 0; i < array1.Length; i++)
+{
     if (array1[i].Length <= 3)
     {
         array2[j] = array1[i];
